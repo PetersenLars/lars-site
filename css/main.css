@@ -37,6 +37,8 @@ audio,
 canvas,
 img,
 video {
-    vertical-align: middle;
+    display: block;
+    vertical-align: top;
 }
 
+    margin-top: -1px;
