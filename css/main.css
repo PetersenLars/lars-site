@@ -47,6 +47,8 @@ audio,
 canvas,
 img,
 video {
+    height: auto;
+    max-width: 100%;
     display: block;
     vertical-align: top;
 }
