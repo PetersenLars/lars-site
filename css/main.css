@@ -23,6 +23,16 @@ html {
     line-height: 1.4;
 }
 
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
