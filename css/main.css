@@ -88,3 +88,17 @@ header h2 {
     font-size: 34px;
     line-height: 44px;
 }
+
+.works h3 {
+    margin: 0 0 70px;
+    font-size: 28px;
+    color: #242424;
+    line-height: 38px;
+    letter-spacing: 4px;
+}
+
+.images img {
+    width: 33.333%;
+    margin-top: -1px;
+    float: left;
+}
