@@ -123,7 +123,34 @@ header h2 {
 .works h3 {
     margin: 0 0 70px;
 }
+
+.work {
     width: 33.333%;
-    margin-top: -1px;
     float: left;
+    position: relative;
+    text-align: center;
+}
+
+.work--overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255,255,255,0.9);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.work:hover .work--overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.work--overlay--content {
+
 }
