@@ -138,23 +138,21 @@ header h2 {
     text-align: center;
 }
 
-.work img {
-    margin-bottom: -1px;
-}
-
 .work--overlay {
-    height: 100%;
-    width: 100%;
+    height: 132px;
+    width: 177px;
+    margin: -66px 0 0 -89px;
     position: absolute;
-    background-color: rgba(255,255,255,0.9);
+    left: 50%;
+    top: 50%;
     visibility: hidden;
     opacity: 0;
     z-index: 9999;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .work:hover .work--overlay {
@@ -162,6 +160,35 @@ header h2 {
     opacity: 1;
 }
 
-.work--overlay--content {
+.work img {
+    z-index: 9998;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
 
+.work:hover img {
+    opacity: 0.1;
+}
+
+.work--overlay h4 {
+    margin: 0 0 35px;
+    font-size: 26px;
+    color: #242424;
+    line-height: 32px;
+    letter-spacing: 2px;
+    font-family: "europa", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.work--overlay h5 {
+    margin: 0;
+    font-size: 30px;
+    color: #444444;
+    line-height: 38px;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-weight: 400;
 }
