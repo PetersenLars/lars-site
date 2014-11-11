@@ -131,6 +131,10 @@ header h2 {
     text-align: center;
 }
 
+.work img {
+    margin-bottom: -1px;
+}
+
 .work--overlay {
     height: 100%;
     width: 100%;
