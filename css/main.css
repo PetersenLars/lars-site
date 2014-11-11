@@ -77,3 +77,14 @@ header h2 {
     line-height: 1.875em;
     letter-spacing: 3px;
 }
+
+.about {
+    padding-bottom: 150px;
+}
+
+.about p {
+    margin: 0;
+    color: #444;
+    font-size: 34px;
+    line-height: 44px;
+}
