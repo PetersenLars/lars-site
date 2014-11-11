@@ -120,6 +120,13 @@ header h2 {
     margin: 0;
 }
 
+.contact p a {
+    color: #242424;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+}
+
 .works h3 {
     margin: 0 0 70px;
 }
