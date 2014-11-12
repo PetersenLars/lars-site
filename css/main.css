@@ -204,6 +204,16 @@ header h2 {
     }
 }
 
+@media only screen and (max-width: 418px) {
+    header h1 {
+        margin-bottom: 0.588em;
+    }
+    
+    header .tagline:before {
+        margin: 0;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     body {
         font-size: 0.5em;
