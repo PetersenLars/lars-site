@@ -18,11 +18,6 @@ textarea {
     -ms-text-size-adjust: 1em;
 }
 
-html {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
 .cf:before,
 .cf:after {
     content: " ";
@@ -54,18 +49,18 @@ video {
 }
 
 .container {
-    max-width: 1160px;
+    max-width: 72.500em;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 1.875em;
 }
 
 header .tagline:before {
     content: '/';
-    margin-right: 10px;
+    margin-right: 0.625em;
 }
 
 header {
-    padding: 160px 0 100px;
+    padding: 10.000em 0 6.250em;
 }
 
 header h1, header h2, .works h3, .contact h3 {
@@ -75,10 +70,10 @@ header h1, header h2, .works h3, .contact h3 {
 }
 
 header h1 {
-    margin: 0 80px 0 0;
+    margin: 0 5.000em 0 0;
     font-size: 2.125em;
-    line-height: 2.875em;
-    letter-spacing: 6px;
+    line-height: 1em;
+    letter-spacing: 0.147em;
 }
 
 header h2 {
@@ -86,34 +81,34 @@ header h2 {
     color: #666;
     font-size: 1.375em;
     font-weight: 400;
-    line-height: 1.875em;
-    letter-spacing: 3px;
+    line-height: 1em;
+    letter-spacing: 0.136em;
 }
 
 .about {
-    padding-bottom: 150px;
+    padding-bottom: 9.375em;
 }
 
 .about p, .contact p {
     margin: 0;
     color: #444;
-    font-size: 34px;
-    line-height: 44px;
+    font-size: 2.125em;
+    line-height: 1.294em;
 }
 
 .works h3, .contact h3 {
-    font-size: 28px;
+    font-size: 1.750em;
     color: #242424;
-    line-height: 38px;
-    letter-spacing: 4px;
+    line-height: 1.357em;
+    letter-spacing: 0.1em;
 }
 
 .contact {
-    padding: 140px 0;
+    padding: 8.750em 0;
 }
 
 .contact h3 {
-    margin: 0 0 65px;
+    margin: 0 0 2.500em;
 }
 
 .contact p {
@@ -128,7 +123,7 @@ header h2 {
 }
 
 .works h3 {
-    margin: 0 0 70px;
+    margin: 0 0 2.500em;
 }
 
 .work {
@@ -139,9 +134,9 @@ header h2 {
 }
 
 .work--overlay {
-    height: 132px;
-    width: 177px;
-    margin: -66px 0 0 -89px;
+    height: 8.250em;
+    width: 12em;
+    margin: -4.125em 0 0 -6em;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -174,21 +169,39 @@ header h2 {
 }
 
 .work--overlay h4 {
-    margin: 0 0 35px;
-    font-size: 26px;
+    margin: 0 0 1.250em;
+    font-size: 1.625em;
     color: #242424;
-    line-height: 32px;
-    letter-spacing: 2px;
+    line-height: 1.231em;
+    letter-spacing: 0.077em;
     font-family: "europa", Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
 .work--overlay h5 {
     margin: 0;
-    font-size: 30px;
+    font-size: 1.875em;
     color: #444444;
-    line-height: 38px;
-    letter-spacing: 2px;
+    line-height: 1.462em;
+    letter-spacing: 0.077em;
     font-style: italic;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 1010px) {
+    .work {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 0.5em;
+        -webkit-text-size-adjust: 0.5em;
+        -ms-text-size-adjust: 0.5em;
+    }
+    
+    .work {
+        width: 100%;
+    }
 }
