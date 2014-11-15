@@ -49,9 +49,9 @@ video {
 }
 
 .container {
-    max-width: 72.500em;
+    max-width: 73.750em;
     margin: 0 auto;
-    padding: 0 1.875em;
+    padding: 0 2.500em;
 }
 
 header .tagline:before {
@@ -97,12 +97,12 @@ header h2 {
 .about p, .contact p {
     margin: 0;
     color: #444;
-    font-size: 2.125em;
-    line-height: 1.294em;
+    font-size: 2em;
+    line-height: 1.6em;
 }
 
 .works h3, .contact h3 {
-    font-size: 1.750em;
+    font-size: 1.5em;
     color: #242424;
     line-height: 1.357em;
     letter-spacing: 0.1em;
@@ -279,7 +279,7 @@ header h2 {
 
 @media only screen and (max-width: 1010px) {
     .work {
-        width: 50%;
+        width: 100%;
     }
 }
 
