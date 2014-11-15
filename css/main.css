@@ -109,7 +109,7 @@ header h2 {
 }
 
 .contact {
-    padding: 8.750em 0;
+    padding: 8.750em 0 0;
 }
 
 .contact h3 {
@@ -208,6 +208,20 @@ header h2 {
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
+}
+
+.credit {
+    margin: 90px 0;
+    font-style: italic;
+    font-size: 1.8em;
+    line-height: 1.6em;
+    color: #444;
+    text-align: center
+}
+
+.credit a {
+    text-decoration: none;
+    color: #444;
 }
 
 
