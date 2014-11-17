@@ -227,7 +227,7 @@ header h2 {
 .credit {
     margin: 3.1em 0 3.3em;
     font-style: italic;
-    font-size: 1.8em;
+    font-size: 1.6em;
     line-height: 1.6em;
     color: #444;
     text-align: center
@@ -275,6 +275,12 @@ header h2 {
     }
 }
 
+@media only screen and (min-width: 766px) and (max-width: 852px) {
+    header h1 {
+        margin-bottom: 0.8em;
+    }
+}
+
 @media only screen and (max-width: 418px) {
     header h1 {
         margin-bottom: 0.8em;
@@ -304,7 +310,7 @@ header h2 {
         padding-bottom: 7em;
     }
     
-    .about p {
+    .about p, .contact p {
         font-size: 2.500em;
     }
     
