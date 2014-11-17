@@ -236,9 +236,9 @@ header h2 {
 .credit a {
     text-decoration: none;
     color: #444;
+    font-weight: 700;
+    font-style: italic;
 }
-
-
 
 @-webkit-keyframes fadeIn {
   0% {opacity: 0;}
