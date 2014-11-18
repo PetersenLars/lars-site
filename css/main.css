@@ -134,7 +134,14 @@ header h2 {
 .images {
     margin: 0 auto;
     max-width: 2560px;
+}
+
+.row-1 {
     background-color: #F5F5F5;
+}
+
+.row-2 {
+    background-color: #F1F1F1;
 }
 
 .work {
