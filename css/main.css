@@ -131,11 +131,26 @@ header h2 {
     margin: 0 0 2.500em;
 }
 
+.images {
+    margin: 0 auto;
+    max-width: 2560px;
+    background-color: #F5F5F5;
+}
+
 .work {
     width: 33.333%;
     float: left;
     position: relative;
     text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.work:hover {
+    background-color: #FFF;
 }
 
 .work--overlay {
@@ -255,7 +270,7 @@ header h2 {
           animation-name: fadeIn;
 }
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 852px) {
     .work {
         width: 100%;
     }
@@ -291,7 +306,7 @@ header h2 {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
     body {
         font-size: 0.5em;
         -webkit-text-size-adjust: 0.5em;
@@ -312,9 +327,5 @@ header h2 {
     
     .about p, .contact p {
         font-size: 2.500em;
-    }
-    
-    .work {
-        width: 100%;
     }
 }
