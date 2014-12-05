@@ -163,7 +163,7 @@ header h2 {
 .work--overlay {
     height: 7em;
     width: 12em;
-    margin: -1em 0 0 -6em;
+    margin: -3em 0 0 -6em;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -180,6 +180,10 @@ header h2 {
     -o-transform: translateY(50px);
     -ms-transform: translateY(50px);
     transform: translateY(50px);
+}
+
+.margin-fix.work--overlay {
+    margin: -6em 0 0 -6em;
 }
 
 .work:hover .work--overlay {
