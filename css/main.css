@@ -161,9 +161,9 @@ header h2 {
 }
 
 .work--overlay {
-    height: 8.250em;
+    height: 7em;
     width: 12em;
-    margin: -4.125em 0 0 -6em;
+    margin: -1em 0 0 -6em;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -209,7 +209,7 @@ header h2 {
     margin: 0 0 1.250em;
     font-size: 1.625em;
     color: #242424;
-    line-height: 1.231em;
+    line-height: 1.462em;
     letter-spacing: 0.077em;
     font-family: "europa", Helvetica, sans-serif;
     text-transform: uppercase;
