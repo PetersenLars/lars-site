@@ -122,7 +122,6 @@ header h2 {
 
 .contact p a {
     color: #242424;
-    font-weight: 700;
     font-style: italic;
     text-decoration: none;
 }
@@ -168,6 +167,7 @@ header h2 {
     left: 50%;
     top: 50%;
     visibility: hidden;
+    text-align: center;
     opacity: 0;
     z-index: 9999;
     -webkit-transition: all 0.2s ease-in-out;
@@ -252,7 +252,6 @@ header h2 {
 
 .credit {
     margin: 4.55em 0 3.3em;
-    font-style: italic;
     font-size: 1.6em;
     line-height: 1.6em;
     color: #444;
@@ -262,7 +261,6 @@ header h2 {
 .credit a {
     text-decoration: none;
     color: #242424;
-    font-weight: 700;
     font-style: italic;
 }
 
